@@ -1,0 +1,16 @@
+Installation
+
+To install, copy the content of "bin" folder to desired location.
+
+Software was tested under Perl 5.10.
+
+Perl scripts are configure with "/usr/bin/perl".
+The following CPAN Perl modules are required:
+* Parallel::ForkManager
+
+Path to NCBI "blastn" executable is expected in shell PATH. 
+Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script 
+by modifying the line 
+    my $blastn = "blastn";
+
+
