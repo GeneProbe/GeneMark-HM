@@ -13,8 +13,17 @@ Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script
 by modifying the line 
     my $blastn = "blastn";
 
-Install databse od model files:
+
+Download and install database model files and pangenome sequence
 cd bin
+wget https://genemark-hm.s3.amazonaws.com/refmod.tar.gz
 tar xf refmod.tar.gz
 
+mkdir refdb
+cd refdb
+wget https://genemark-hm.s3.amazonaws.com/pan.fasta
+makeblastdb -in pan.fasta  -parse_seqids -dbtype nucl  -out pan -title pan
+
+
+Pipeline is ready for execution.
 
