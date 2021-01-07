@@ -17,7 +17,7 @@ Two databases form the core part of this pipeline. Database of genes is used on 
 * pan-genome specific gene finding models is located on Amazon S3 storage
 
 ## Instalation
-Installation instructions are available in [INSTALL] (INSTALL) file.
+Installation instructions are available in [INSTALL](INSTALL) file.
 
 ## Data and code used in the paper
 
