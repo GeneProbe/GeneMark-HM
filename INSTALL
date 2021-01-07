@@ -13,4 +13,8 @@ Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script
 by modifying the line 
     my $blastn = "blastn";
 
+Install databse od model files:
+cd bin
+tar xf refmod.tar.gz
+
 
