@@ -19,8 +19,25 @@ Two databases form the core part of this pipeline. Database of genes is used on 
 ## Instalation
 Installation instructions are available in [INSTALL](INSTALL) file.
 
+## Gene prediction
+Pipeline creates output files and temporary working folder in the current working directory. It is recommended to run analyses in dedicated folder for each metagenome sequence.  
+Multithreading is supported. Set "--cores" command line option according to available system resources.  
+
+To generate predictions on metagenome assembly:  
+```
+mkdir some_work_dir
+cd some_work_dir
+nohup path_to/bin/gm_hm.pl --seq path_to/sequence.fasta --cores 4 --aa aa.fasta --nt nt.fasta --out output.gtf --verbose > logfile &
+```
+Option "--clean" can be specified to remove all the temporary files after code execution.  
+It is recommended to run pipeline in verbose mode. In verbose mode information about performance of individual steps of pipeline is outputted on STDOUT.  
+
 ## Data and code used in the paper
 
+Table 1.  
+Table 2.  
+Table 3.  
+Table 4.  
+Table 5.  
 Table 6. Collection of statistics on genes predicted in real metagenomes [RealMetagenomes](RealMetagenomes). 
-
 
