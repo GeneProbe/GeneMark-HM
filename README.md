@@ -13,8 +13,8 @@ Two databases form the core part of this pipeline. Database of genes is used on 
 
 ## Pipeline code
 * GeneMark-HM software is located in "bin" folder
-* pan-genome sequences is located on Amazon S3 storage
-* pan-genome specific gene finding models is located on Amazon S3 storage
+* pan-genome sequences are located on Amazon S3 storage
+* pan-genome specific gene finding models are located on Amazon S3 storage
 
 ## Instalation
 Installation instructions are available in [INSTALL](INSTALL) file.
