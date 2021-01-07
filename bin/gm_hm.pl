@@ -10,7 +10,7 @@
 #            94/96 avenue Ledru-Rollin 75011 Paris, France   
 #
 # Reference:  GeneMark-HM: Improving Gene Prediction in DNA Sequences of Human Microbiome
-# under revuew
+# under review
 #
 # Release: January 2021
 #
