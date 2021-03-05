@@ -3,7 +3,7 @@
 # Authors: Alex Lomsadze
 #          Christophe Bonny
 #          Francesco Strozzi
-#          Mark Borodovsk
+#          Mark Borodovsky
 # Copyright: GeneProbe Inc.
 #            Atlanta, GA, USA
 # Copyright: Enterome,
