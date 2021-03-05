@@ -15,12 +15,12 @@ Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script by 
 Download and install database of model files and databse of pan-genome sequences
 
 cd bin
-wget https://genemark-hm.s3.amazonaws.com/refmod.tar.gz
-tar xf refmod.tar.gz
+wget http://geneprobe.net/genemark_hm/refmod.tar
+tar xf refmod.tar
 
 mkdir refdb
 cd refdb
-wget https://genemark-hm.s3.amazonaws.com/pan.fasta
+wget http://geneprobe.net/genemark_hm/pan.fasta
 makeblastdb -in pan.fasta  -parse_seqids -dbtype nucl  -out pan -title pan
 
 Pipeline is ready for execution.
