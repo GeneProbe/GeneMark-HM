@@ -13,6 +13,11 @@ Copyright: Enterome. 94/96 avenue Ledru-Rollin 75011 Paris, France
   
 Release: January 2021  
   
+## LICENSE
+[LICENSE](LICENSE)  
+READ THIS LICENSE AGREEMENT CAREFULLY BEFORE USING THIS PRODUCT. BY USING THIS PRODUCT YOU INDICATE YOUR ACCEPTANCE OF THE TERMS OF THE FOLLOWING AGREEMENT. THESE TERMS APPLY TO YOU AND ANY SUBSEQUENT LICENSEE OF THIS PRODUCT.
+
+
 ## Overview
 GeneMark-HM is a pipeline for protein coding gene prediction in assembled metagenomes from human microbiome (HM). Pipeline integrates three algorithms from GeneMark gene finder family, MetaGeneMark-2, GeneMarkS-2 and Genemark.hmm-2, into a workflow with parameters optimized for analysis of human metagenomes. 
 
