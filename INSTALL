@@ -1,10 +1,12 @@
-Installation of GeneMark-HM piepline
+Installation of GeneMark-HM pipeline
 
-To install, copy the content of "bin" folder to desired location.
+Download the code from GitHub
+git clone https://github.com/GeneProbe/GeneMark-HM.git
 
-Software was tested under Perl 5.10.
+Copy the content of "bin" folder to desired location.
 
-Perl scripts are configure as "/usr/bin/perl".
+Software was tested with Perl version 5.10
+Perl scripts are configure with default Perl location at "/usr/bin/perl".
 The following CPAN Perl modules are required:
 * Parallel::ForkManager
 
@@ -12,11 +14,14 @@ NCBI "blastn" executable is expected in shell PATH.
 Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script by modifying the line 
     my $blastn = "blastn";
 
-Download and install database of model files and databse of pan-genome sequences
+Download and install database of model files and databse of pan-genome sequences.
 
 cd bin
 wget http://geneprobe.net/genemark_hm/refmod.tar
 tar xf refmod.tar
+rm refmod.tar
+
+Pan-genome file is ~20 Gb in size and download can take some time.
 
 mkdir refdb
 cd refdb
