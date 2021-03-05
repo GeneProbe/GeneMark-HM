@@ -1,7 +1,18 @@
 # GeneMark-HM
 _GeneMark-HM: Improving Gene Prediction in DNA Sequences of Human Microbiome_  
 (manuscript submitted for publication, 2020)  
+  
+Authors:  
+ - Alex Lomsadze  
+ - Christophe Bonny  
+ - Francesco Strozzi  
+ - Mark Borodovsky  
 
+Copyright: GeneProbe Inc. Atlanta, GA, USA  
+Copyright: Enterome. 94/96 avenue Ledru-Rollin 75011 Paris, France  
+  
+Release: January 2021  
+  
 ## Overview
 GeneMark-HM is a pipeline for protein coding gene prediction in assembled metagenomes from human microbiome (HM). Pipeline integrates three algorithms from GeneMark gene finder family, MetaGeneMark-2, GeneMarkS-2 and Genemark.hmm-2, into a workflow with parameters optimized for analysis of human metagenomes. 
 
@@ -33,11 +44,6 @@ Option "--clean" can be specified to remove all the temporary files after code e
 It is recommended to run pipeline in verbose mode. In verbose mode information about performance of individual steps of pipeline is outputted on STDOUT.  
 
 ## Data and code used in the paper
-
-Table 1.  
-Table 2.  
-Table 3.  
-Table 4.  
-Table 5.  
-Table 6. Collection of statistics on genes predicted in real metagenomes [RealMetagenomes](RealMetagenomes). 
+Supporting materials used in the paper can be found in this repository:
+https://github.com/GeneProbe/GeneMark-HM-exp
 
