@@ -4,6 +4,8 @@ Download the code from GitHub
 git clone https://github.com/GeneProbe/GeneMark-HM.git
 
 Copy the content of "bin" folder to desired location.
+Install the key file from "bin" folder:
+cp key  ~/.gmhmmp2_key
 
 Software was tested with Perl version 5.10
 Perl scripts are configure with default Perl location at "/usr/bin/perl".
@@ -31,7 +33,8 @@ makeblastdb -in pan.fasta  -parse_seqids -dbtype nucl  -out pan -title pan
 
 Pipeline is ready for execution.
 
-To test pipeline installation:
+To test pipeline installation, run pipeline and compare results:
 
 cd test/run
-
+../../bin/gm_hm.pl --seq ../sequence.fasta --cores 4 --out output.gtf --clean 
+../../bin/compp -a ../genemark.gtf  -b output.gtf
