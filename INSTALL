@@ -14,7 +14,7 @@ NCBI "blastn" executable is expected in shell PATH.
 Alternatively, path to “blastn” can be set directly in "gm_hm.pl" script by modifying the line 
     my $blastn = "blastn";
 
-Download and install database of model files and databse of pan-genome sequences.
+Download and install database of model files and database of pan-genome sequences.
 
 cd bin
 wget http://geneprobe.net/genemark_hm/refmod.tar
@@ -25,7 +25,13 @@ Pan-genome file is ~20 Gb in size and download can take some time.
 
 mkdir refdb
 cd refdb
-wget http://geneprobe.net/genemark_hm/pan.fasta
+wget http://geneprobe.net/genemark_hm/pan.fasta.tar
+mv pan.fasta.tar pan.fasta
 makeblastdb -in pan.fasta  -parse_seqids -dbtype nucl  -out pan -title pan
 
 Pipeline is ready for execution.
+
+To test pipeline installation:
+
+cd test/run
+
