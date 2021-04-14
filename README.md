@@ -14,8 +14,10 @@ Copyright: Enterome. 94/96 avenue Ledru-Rollin 75011 Paris, France
 Release: January 2021  
   
 ## LICENSE
-[LICENSE](LICENSE)  
 READ THIS LICENSE AGREEMENT CAREFULLY BEFORE USING THIS PRODUCT. BY USING THIS PRODUCT YOU INDICATE YOUR ACCEPTANCE OF THE TERMS OF THE FOLLOWING AGREEMENT. THESE TERMS APPLY TO YOU AND ANY SUBSEQUENT LICENSEE OF THIS PRODUCT.
+
+The GeneMark-HM pipeline software is distributed under the open source [GPL](LICENSE_GPL_3.txt) license.  
+GeneMark.hmm is distributed as part of GeneMark-HM pipeline with limited rights of use and redistribution [LICENSE_GeneMark_hmm](LICENSE_GeneMark_hmm).  
 
 Additional information can be found on Geneprobe web site:  http://geneprobe.net/genemark_hm/
 
